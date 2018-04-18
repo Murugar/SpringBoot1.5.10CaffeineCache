@@ -1,0 +1,5 @@
+spring:
+  cache:
+    cache-names: timeCached
+    caffeine:
+      spec: expireAfterWrite=30s
